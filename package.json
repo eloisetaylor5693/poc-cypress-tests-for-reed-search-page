@@ -8,7 +8,8 @@
     "init": "^0.1.2"
   },
   "scripts": {
-    "test": "npx cypress open"
+    "test": "cypress run --headless",
+    "test:console": "npx cypress open"
   },
   "keywords": [
     "cypress",
