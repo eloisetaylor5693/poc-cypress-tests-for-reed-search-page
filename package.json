@@ -1,0 +1,21 @@
+{
+  "name": "reed-e2e-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.5.0",
+    "init": "^0.1.2"
+  },
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "tests",
+    "e2e"
+  ],
+  "author": "Eloise Taylor",
+  "license": "ISC",
+  "description": ""
+}
