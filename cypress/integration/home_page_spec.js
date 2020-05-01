@@ -12,7 +12,7 @@ describe('Visiting the homepage', () => {
         });
     
         it('Has "Trending jobs"', () => {
-            cy.contains('Trening jobs');
+            cy.contains('Trending jobs');
         });
     
         it('Has "Browse local jobs"', () => {
