@@ -1,4 +1,4 @@
-context('Can search for jobs using "What" and "Where"', () => {
+context('Can search for jobs using "What" and "Where" on the search results page', () => {
     let intialJobCount = 0;
     let afterSearchingJobCount = 0;
 
