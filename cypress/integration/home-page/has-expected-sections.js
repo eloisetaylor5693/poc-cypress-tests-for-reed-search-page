@@ -16,9 +16,8 @@ context('Homepage has useful sections for the jobseeker', () => {
         cy.contains('Trending jobs');
 
         cy.get('.companies-promo li')
-            .then(($list) => {
-                expect($list.length).to.be.greaterThan(5);
-            });
+            .its('length')
+            .should('be.gt', 5)
     });
 
     describe('Has "Browse local jobs"', () => {
@@ -62,9 +61,8 @@ context('Homepage has useful sections for the jobseeker', () => {
         cy.contains('leading companies');
 
         cy.get('.trending-promo a')
-            .then(($list) => {
-                expect($list.length).to.be.greaterThan(10);
-            });
+            .its('length')
+            .should('be.gt', 10)
     });
 
     describe('Has "Choose your sector"', () => {
@@ -80,9 +78,8 @@ context('Homepage has useful sections for the jobseeker', () => {
 
         it('Has list of sectors', () => {
             cy.get('.browse-by-sector .sector-list li')
-                .then(($list) => {
-                    expect($list.length).to.be.greaterThan(10);
-                });
+                .its('length')
+                .should('be.gt', 10)
         })
     });
 });
