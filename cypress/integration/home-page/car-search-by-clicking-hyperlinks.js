@@ -1,7 +1,7 @@
 context('Can search for jobs using links on homepage', () => {
 
     beforeEach(() => {
-        cy.visit('https://reed.co.uk');
+        cy.visit('/');
     });
 
     it('Coronavirus banner', () => {

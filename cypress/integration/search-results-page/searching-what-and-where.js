@@ -3,7 +3,7 @@ context('Can search for jobs using "What" and "Where" on the search results page
     let afterSearchingJobCount = 0;
 
     beforeEach(() => {
-        cy.visit('https://reed.co.uk/jobs');
+        cy.visit('/jobs');
 
         cy.get('.page-title .count').as('totalJobCount');
     });

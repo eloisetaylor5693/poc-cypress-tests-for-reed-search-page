@@ -1,7 +1,7 @@
 context('Can search for jobs using "What" and "Where" on the homepage', () => {
 
     beforeEach(() => {
-        cy.visit('https://reed.co.uk');
+        cy.visit('/');
     });
 
     it('Keyword and location search', () => {
