@@ -13,7 +13,9 @@ context('Can search for jobs using "What" and "Where" on the homepage', () => {
             .type('Liverpool')
             .should('have.value', 'Liverpool');
 
-        cy.get('#homepageSearchButton')
+        cy.get('button')
+            .filter(':visible')
+            .contains('Search jobs')
             .click()
 
         cy.url().should('include', '/jobs/admin-jobs-in-liverpool')
