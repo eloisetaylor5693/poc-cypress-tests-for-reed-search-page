@@ -38,7 +38,7 @@ context('Can search for jobs using "What" and "Where" on the search results page
             .type('Liverpool')
             .should('have.value', 'Liverpool');
 
-        cy.contains('Search jobs')
+        cy.searchJobsButton()
             .click()
             .wait(800);
 
