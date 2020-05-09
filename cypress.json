@@ -1,4 +1,5 @@
 {
     "video": false,
-    "baseUrl": "https://www.reed.co.uk/"
+    "baseUrl": "https://www.reed.co.uk/",
+    "waitForAnimations": true
 }
