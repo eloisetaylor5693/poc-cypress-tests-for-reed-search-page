@@ -1,5 +1,9 @@
 {
     "video": false,
     "baseUrl": "https://www.reed.co.uk/",
-    "waitForAnimations": true
+    "waitForAnimations": true,
+    "env": {
+        "foo": "bar",
+        "some": "value"
+      }
 }
