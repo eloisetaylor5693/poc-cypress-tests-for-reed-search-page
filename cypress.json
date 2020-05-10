@@ -2,6 +2,7 @@
     "video": false,
     "baseUrl": "https://www.reed.co.uk/",
     "waitForAnimations": true,
+    "theme": "dark",
     "env": {
         "foo": "bar",
         "some": "value"
