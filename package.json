@@ -6,11 +6,13 @@
   "devDependencies": {
     "cypress": "^4.5.0",
     "cypress-dark": "^1.7.14",
-    "init": "^0.1.2"
+    "init": "^0.1.2",
+    "prettier": "^2.0.5"
   },
   "scripts": {
     "test": "npx cypress open",
-    "test:ci": "cypress run --headless"
+    "test:ci": "cypress run --headless",
+    "prettier": "prettier --write ."
   },
   "keywords": [
     "cypress",
